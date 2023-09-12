@@ -1,0 +1,18 @@
+@import "./reset.scss";
+
+$bg: #dde1d3;
+$blue: #00a0c8;
+$red: #d03022;
+$burntRed: #573533;
+
+body {
+  background-color: $bg;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  span {
+    font-size: 150px;
+    font-weight: 900;
+  }
+}
